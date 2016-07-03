@@ -14,7 +14,7 @@ import javax.swing.JTextArea;
 public class Main{
 	static Main main;
 	Robot robot;
-	JFrame frame = new JFrame("´«Ææ×¢²á»ú");
+	JFrame frame = new JFrame("ä¼ å¥‡æ³¨å†Œæœº");
 	JPanel panel = new JPanel();
 	JTextArea textarea = new JTextArea();
 	public Main() {
@@ -24,7 +24,7 @@ public class Main{
 		panel.setLayout(new BorderLayout());
 		
 		JScrollPane scroll = new JScrollPane(textarea);
-		textarea.setText("Ê¹ÓÃ·½·¨£º ÏÈ½«ÊäÈë·¨ÇĞ»»µ½Ó¢ÎÄ×´Ì¬¡£\nÊó±êµãµ½ÊäÈë¿ò×Ô¶¯ÊäÈë×¢²áĞÅÏ¢¡£\nÒÔºóÖ»ÒªÏÈµã»÷±¾Èí¼ş£¬ÔÙµãµ½ÊäÈë¿ò¾Í»áÊµÏÖ×Ô¶¯ÊäÈë¡£\n");
+		textarea.setText("ä½¿ç”¨æ–¹æ³•ï¼š å…ˆå°†è¾“å…¥æ³•åˆ‡æ¢åˆ°è‹±æ–‡çŠ¶æ€ã€‚\né¼ æ ‡ç‚¹åˆ°è¾“å…¥æ¡†è‡ªåŠ¨è¾“å…¥æ³¨å†Œä¿¡æ¯ã€‚\nä»¥ååªè¦å…ˆç‚¹å‡»æœ¬è½¯ä»¶ï¼Œå†ç‚¹åˆ°è¾“å…¥æ¡†å°±ä¼šå®ç°è‡ªåŠ¨è¾“å…¥ã€‚\n");
 		panel.add(scroll,BorderLayout.CENTER);
 		frame.add(panel);
 		frame.setVisible(true);
@@ -111,7 +111,7 @@ public class Main{
 		main.keyPress(answer1);
 		main.keyPress(question2);
 		main.keyPress(answer2);
-		textarea.append("ÊäÈëÍê±Ï¡£\n");
+		textarea.append("è¾“å…¥å®Œæ¯•ã€‚\n");
 	}
 //	public static keyPress
 	public static void main(String[] args) {
